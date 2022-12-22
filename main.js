@@ -83,3 +83,4 @@ function calcularTotalAPagar (totalCompra) {
     };
     const totalCompra = comprarProductos();
     calcularTotalAPagar(totalCompra);
+    //
