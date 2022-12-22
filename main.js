@@ -22,19 +22,19 @@ const comprarProductos = () => {
         
         switch (producto) {
             case 'creatina':
-                cantidadC = parseInt(prompt('cuantos queres comprar'));
                 precioC = 9000
                 alert('el precio de la creatina individual es de '+precioC);  
+                cantidadC = parseInt(prompt('cuantos queres comprar'));
                 break;
             case 'proteina':
-                cantidadP = parseInt(prompt('cuantos queres comprar'));
                 precioP = 6000
-                alert('el precio de la proteina individual es de '+precioP);                   
+                alert('el precio de la proteina individual es de '+precioP);
+                cantidadP = parseInt(prompt('cuantos queres comprar'));                   
                 break;
             case 'preentreno':
-                cantidadPE = parseInt(prompt('cuantos queres comprar'));
                 precioPE = 2500
                 alert('el precio de el pre entreno individual es de '+precioPE);
+                cantidadPE = parseInt(prompt('cuantos queres comprar'));
                 break;
             default:
                 alert('algun dato es erroneo')
